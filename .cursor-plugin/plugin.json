@@ -1,0 +1,27 @@
+{
+  "name": "openaccountants",
+  "displayName": "OpenAccountants — Tax & Accounting Skills",
+  "version": "0.1.0",
+  "description": "On-demand access to 800+ accountant-verified tax skills across 190+ jurisdictions. Every skill is signed off by a named licensed accountant. Get accountant-grade VAT, income tax, payroll, formation, and cross-border tax computation directly in Cursor.",
+  "author": {
+    "name": "OpenAccountants",
+    "email": "info@openaccountants.com"
+  },
+  "homepage": "https://www.openaccountants.com",
+  "repository": "https://github.com/openaccountants/cursor-plugin",
+  "license": "MIT",
+  "keywords": [
+    "tax",
+    "accounting",
+    "vat",
+    "gst",
+    "payroll",
+    "compliance",
+    "irs",
+    "hmrc",
+    "freelance",
+    "small-business",
+    "mcp"
+  ],
+  "logo": "assets/logo.svg"
+}
