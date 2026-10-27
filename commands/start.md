@@ -11,7 +11,7 @@ Use the `start` tool from the OpenAccountants MCP server to figure out which jur
 2. Ask the user for their jurisdiction (ISO 2-letter code, e.g. `MT`, `GB`, `US-CA`) and their intent (`taxes`, `VAT return`, `set up a company`, `find deductions`, etc.).
 3. Call `start({ intent, jurisdiction })` to get a ready-to-execute plan listing the skills to load.
 4. For each skill in `skills_to_load`, call `get_skill({ slug })` to fetch the full markdown.
-5. Walk the user through the workflow described in the loaded skills.
+5. Check the fetched skill version's published review record. Name a professional reviewer only when that record identifies one; if the record is missing, describe professional review as unconfirmed. Cite the skill slug and available version or review date. Walk the user through the workflow described in the loaded skills.
 
 If the user is non-technical, prefer the more specific commands instead:
 - `/prepare-vat-return` — VAT/GST/sales-tax return

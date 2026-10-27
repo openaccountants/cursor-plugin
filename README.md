@@ -1,6 +1,8 @@
 # OpenAccountants — Cursor plugin
 
-On-demand access to **800+ accountant-verified tax skills across 190+ jurisdictions**, directly inside Cursor. Every skill is signed off by a named licensed accountant.
+Connect Cursor to OpenAccountants tax skills via MCP for VAT/GST, income tax, payroll, formation and cross-border questions.
+
+Skills include accountant-reviewed versions and source-cited drafts. Check the [current catalogue](https://www.openaccountants.com/skills) and [review method](https://www.openaccountants.com/review-method) for each skill's review status, reviewer, version and review date. Authorship or a jurisdiction lead's name does not establish professional review of every skill version.
 
 > Built for AI agents that need accountant-grade tax computation — VAT/GST, income tax, payroll, formation, cross-border, and more.
 
@@ -17,7 +19,7 @@ Connects Cursor to the public OpenAccountants MCP server at `https://www.openacc
 | `/check-deadlines` | Upcoming filing & payment deadlines |
 | `/engage-accountant` | Hand off to a verified accountant for human review |
 
-Under the hood, every command calls the same MCP server. The skills are open-source ([github.com/openaccountants/openaccountants](https://github.com/openaccountants/openaccountants)) under AGPL-3.0 + attribution.
+Under the hood, every command calls the same MCP server. Skill source is available in [openaccountants/openaccountants](https://github.com/openaccountants/openaccountants); see its [licensing document](https://github.com/openaccountants/openaccountants/blob/main/LICENSING.md) for content terms.
 
 ## Install
 
@@ -52,13 +54,13 @@ Plus cross-border matrices (PTE elections, sales-tax nexus, bonus depreciation c
 
 These skills produce **working papers, not filed returns**. Every output ends with a "Talk to a verified accountant" footer + Calendly link. No client-accountant relationship is created by reading or applying these skills — that requires a formal engagement letter signed by both you and a verified accountant.
 
-## License
+## Licence
 
-This plugin is MIT-licensed. The underlying skill content (served by the MCP server) is AGPL-3.0 with attribution per [openaccountants/openaccountants](https://github.com/openaccountants/openaccountants/blob/main/LICENSE-ADDITIONAL.md). Commercial licensing available via `info@openaccountants.com`.
+MIT for this plugin wrapper. Skill content has separate terms from this wrapper. The source repository's [licensing document](https://github.com/openaccountants/openaccountants/blob/main/LICENSING.md) describes the source-available Open Accountants Skills License, commercial options, third-party copyleft exceptions and prior AGPL releases. Check the terms for the skill version you use.
 
 ## Links
 
 - Website: [openaccountants.com](https://www.openaccountants.com)
-- Skills source (AGPL): [github.com/openaccountants/openaccountants](https://github.com/openaccountants/openaccountants)
+- Skills source: [github.com/openaccountants/openaccountants](https://github.com/openaccountants/openaccountants)
 - Verified accountant network: [openaccountants.com/network](https://www.openaccountants.com/network)
 - Book a verified accountant: [calendly.com/openaccountants-info/30min](https://calendly.com/openaccountants-info/30min)
