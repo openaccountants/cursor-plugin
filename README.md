@@ -1,8 +1,8 @@
 # OpenAccountants — Cursor plugin
 
-Connect Cursor to OpenAccountants tax Guides via MCP for VAT/GST, income tax, payroll, formation and cross-border questions.
+Connect Cursor to OpenAccountants tax skills via MCP for VAT/GST, income tax, payroll, formation and cross-border questions.
 
-Guides include accountant-reviewed versions and source-cited drafts. Check the [current catalogue](https://www.openaccountants.com/skills) and [review method](https://www.openaccountants.com/review-method) for each Guide's review status, reviewer, version and review date. Authorship or a jurisdiction lead's name does not establish professional review of every Guide version.
+Skills include accountant-reviewed versions and source-cited drafts. Check the [current catalogue](https://www.openaccountants.com/skills) and [review method](https://www.openaccountants.com/review-method) for each skill's review status, reviewer, version and review date. Authorship or a jurisdiction lead's name does not establish professional review of every skill version.
 
 > Built for AI agents that need accountant-grade tax computation — VAT/GST, income tax, payroll, formation, cross-border, and more.
 
@@ -19,7 +19,7 @@ Connects Cursor to the public OpenAccountants MCP server at `https://www.openacc
 | `/check-deadlines` | Upcoming filing & payment deadlines |
 | `/engage-accountant` | Hand off to a verified accountant for human review |
 
-Under the hood, every command calls the same MCP server. Guide source is available in [openaccountants/openaccountants](https://github.com/openaccountants/openaccountants); see its [licensing document](https://github.com/openaccountants/openaccountants/blob/main/LICENSING.md) for content terms.
+Under the hood, every command calls the same MCP server. Skill source is available in [openaccountants/openaccountants](https://github.com/openaccountants/openaccountants); see its [licensing document](https://github.com/openaccountants/openaccountants/blob/main/LICENSING.md) for content terms.
 
 ## Install
 
@@ -56,11 +56,11 @@ These skills produce **working papers, not filed returns**. Every output ends wi
 
 ## Licence
 
-MIT for this plugin wrapper. Guide content has separate terms from this wrapper. The source repository's [licensing document](https://github.com/openaccountants/openaccountants/blob/main/LICENSING.md) describes the source-available OA Guide License, commercial options, third-party copyleft exceptions and prior AGPL releases. Check the terms for the Guide version you use.
+MIT for this plugin wrapper. Skill content has separate terms from this wrapper. The source repository's [licensing document](https://github.com/openaccountants/openaccountants/blob/main/LICENSING.md) describes the source-available Open Accountants Skills License, commercial options, third-party copyleft exceptions and prior AGPL releases. Check the terms for the skill version you use.
 
 ## Links
 
 - Website: [openaccountants.com](https://www.openaccountants.com)
-- Guide source: [github.com/openaccountants/openaccountants](https://github.com/openaccountants/openaccountants)
+- Skills source: [github.com/openaccountants/openaccountants](https://github.com/openaccountants/openaccountants)
 - Verified accountant network: [openaccountants.com/network](https://www.openaccountants.com/network)
 - Book a verified accountant: [calendly.com/openaccountants-info/30min](https://calendly.com/openaccountants-info/30min)

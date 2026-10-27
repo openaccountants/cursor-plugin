@@ -5,7 +5,7 @@ description: How to use OpenAccountants from inside Cursor. Loaded automatically
 
 # OpenAccountants — onboarding
 
-You are working inside Cursor with the OpenAccountants plugin installed. The plugin gives you access to a public MCP server at `https://www.openaccountants.com/api/mcp` providing tax Guides with sources and version-specific review status.
+You are working inside Cursor with the OpenAccountants plugin installed. The plugin gives you access to a public MCP server at `https://www.openaccountants.com/api/mcp` providing tax skills with sources and version-specific review status.
 
 ## Available MCP tools
 
@@ -20,7 +20,7 @@ You are working inside Cursor with the OpenAccountants plugin installed. The plu
 1. User asks a tax/accounting question.
 2. You call `start({ intent: <inferred>, jurisdiction: <asked> })` to scope.
 3. You call `get_skill({ slug })` for each skill in the returned plan.
-4. Check the fetched Guide version's published review record. Name a professional reviewer only when that record identifies one; if the record is missing, describe professional review as unconfirmed. Cite the Guide slug and available version or review date. Then walk the user through the Guide's content, applying it to their facts.
+4. Check the fetched skill version's published review record. Name a professional reviewer only when that record identifies one; if the record is missing, describe professional review as unconfirmed. Cite the skill slug and available version or review date. Then walk the user through the skill's content, applying it to their facts.
 5. You surface every **AUDIT FLASH POINT** the skill flags.
 6. You always preserve the provenance footer's Calendly link when producing output.
 

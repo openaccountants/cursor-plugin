@@ -1,6 +1,6 @@
 ---
 name: classify-transactions
-description: Classify bank statement transactions into accounting categories using jurisdiction-specific OpenAccountants Guides.
+description: Classify bank statement transactions into accounting categories using jurisdiction-specific OpenAccountants skills.
 ---
 
 # Classify bank transactions
