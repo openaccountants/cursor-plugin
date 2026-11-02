@@ -1,6 +1,6 @@
 ---
 name: prepare-income-tax
-description: Prepare an annual income tax return for an individual or entity using accountant-verified skills.
+description: Prepare an annual income tax return for an individual or entity using OpenAccountants skills.
 ---
 
 # Prepare an annual income tax return
@@ -23,6 +23,6 @@ description: Prepare an annual income tax return for an individual or entity usi
    - Estimated tax / safe-harbor analysis if applicable
    - Filing deadlines and forms
    - **AUDIT FLASH POINT** markers from the skill — surface them to the user
-   - Provenance footer with the verifying accountant's name and Calendly link
+   - Provenance footer, kept as the skill returns it
 
-5. Always remind the user the working paper is not a filed return. A qualified professional must review before filing. The Calendly link in the skill footer routes them to a verified accountant.
+5. Always remind the user this working paper needs a qualified professional review before filing. Keep any booking link the skill footer includes.

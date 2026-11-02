@@ -5,13 +5,13 @@ description: Connect the user with a verified accountant in their jurisdiction f
 
 # Engage a verified accountant
 
-OpenAccountants is open-source content + AI tooling. For anything that requires liability, sign-off, or formal advice, the user needs a human accountant.
+OpenAccountants provides tax and accounting skills and AI tooling. For anything that requires liability, sign-off, or formal advice, the user needs a human accountant.
 
 1. Ask the user the jurisdiction(s) involved and a one-line summary of what they need (return review, tax planning, formation, payroll setup, etc.).
 
-2. List the verified accountants for that jurisdiction:
+2. List accountants for that jurisdiction when any are published:
    - Open `https://www.openaccountants.com/network` and surface the listings
-   - Or call `list_skills({ jurisdiction: "<code>" })` and read the verifier names from the skill metadata
+   - Or call `list_verifiers({ jurisdiction: "<code>" })`
 
 3. Hand off to the booking flow:
    - The central Calendly link is `https://calendly.com/openaccountants-info/30min`

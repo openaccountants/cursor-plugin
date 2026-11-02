@@ -1,6 +1,6 @@
 ---
 name: prepare-vat-return
-description: Prepare a VAT, GST, or sales-tax return for a specific jurisdiction using accountant-verified skills.
+description: Prepare a VAT, GST, or sales-tax return for a specific jurisdiction using OpenAccountants skills.
 ---
 
 # Prepare a VAT / GST / sales-tax return
@@ -19,8 +19,8 @@ description: Prepare a VAT, GST, or sales-tax return for a specific jurisdiction
    - Box totals
    - Reconciliation against gross receipts
    - Deadlines and filing mechanics for the jurisdiction
-   - Provenance footer (verified-by accountant + Calendly link)
+   - Provenance footer, kept as the skill returns it
 
-5. Remind the user this is a working paper, not a filed return — they must have a qualified professional review before filing. The skill's "Talk to a verified accountant" footer carries the Calendly link.
+5. Remind the user this working paper needs a qualified professional review before filing. Keep any booking link the skill footer includes.
 
 **Out of scope** by default: cross-border OSS/IOSS (load the cross-border skills), margin schemes, partial exemption, VAT groups, capital goods scheme — unless the skill explicitly covers them.

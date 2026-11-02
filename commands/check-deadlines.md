@@ -26,4 +26,4 @@ description: List upcoming tax filing and payment deadlines for a specific juris
 
 5. Call out jurisdiction-specific quirks the skills flag (e.g. CA 30/40/0/30 estimated tax schedule; PA Act 32 PSD codes; NY MFI corporate first installment).
 
-6. Close with the Calendly link from the skill footer if the user wants a verified accountant to handle filings.
+6. If the user wants a verified accountant to handle filings, include any booking link from the skill footer.

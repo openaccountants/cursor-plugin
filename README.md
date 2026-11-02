@@ -1,8 +1,8 @@
 # OpenAccountants — Cursor plugin
 
-On-demand access to **800+ accountant-verified tax skills across 190+ jurisdictions**, directly inside Cursor. Every skill is signed off by a named licensed accountant.
+**2,168 accountant-written tax and accounting skills** covering **218 countries plus all 50 US states and DC**, directly inside Cursor.
 
-> Built for AI agents that need accountant-grade tax computation — VAT/GST, income tax, payroll, formation, cross-border, and more.
+> Built for AI agents that need tax and accounting computation — VAT/GST, income tax, payroll, formation, cross-border, and more.
 
 ## What this plugin does
 
@@ -12,18 +12,18 @@ Connects Cursor to the public OpenAccountants MCP server at `https://www.openacc
 |---|---|
 | `/start` | Onboarding — figures out which jurisdiction and workflow applies |
 | `/prepare-vat-return` | Guided VAT/GST/sales-tax return preparation |
-| `/prepare-income-tax` | Annual income tax return for any jurisdiction |
+| `/prepare-income-tax` | Annual income tax return for a jurisdiction |
 | `/classify-transactions` | Bank-statement → P&L classification by jurisdiction |
-| `/check-deadlines` | Upcoming filing & payment deadlines |
+| `/check-deadlines` | Upcoming filing and payment deadlines |
 | `/engage-accountant` | Hand off to a verified accountant for human review |
 
-Under the hood, every command calls the same MCP server. The skills are open-source ([github.com/openaccountants/openaccountants](https://github.com/openaccountants/openaccountants)) under AGPL-3.0 + attribution.
+Every command calls that MCP server.
 
 ## Install
 
-Search "OpenAccountants" in the Cursor plugin marketplace and click install. That's it — Cursor will configure the MCP connection automatically.
+Search "OpenAccountants" in the Cursor plugin marketplace and click install. Cursor configures the MCP connection automatically.
 
-For manual install (without the marketplace), add this to your `.cursor/mcp.json`:
+For a manual install, add this to `.cursor/mcp.json`:
 
 ```json
 {
@@ -35,30 +35,31 @@ For manual install (without the marketplace), add this to your `.cursor/mcp.json
 }
 ```
 
-## Jurisdictions covered
+No API key or other secret is required. The server URL is public.
 
-Every UN member state has at least foundational coverage. Deep packs exist for:
+## Coverage
+
+2,168 accountant-written tax and accounting skills covering 218 countries, plus all 50 US states and DC. Examples:
 
 - **Europe**: Malta, UK, Germany, Italy, France, Spain, Portugal, Ireland, Netherlands
-- **North America**: US federal + 24 deep state packs (CA, NY, TX, FL, IL, OH, PA, MA, NJ, NC, MI, OR, WA, NH, DE, VA, GA, AZ, CO, NV, MN, MO, MD, …); Canada federal + provincial
+- **North America**: United States (federal, all 50 states, and DC); Canada
 - **Asia**: India, Indonesia, China (in 简体中文), Pakistan, Singapore, Japan
 - **Latin America**: Brazil (in PT-BR), Mexico, Argentina, Chile
 - **Africa**: South Africa, Nigeria, Kenya, Egypt
 - **Middle East**: Saudi Arabia, UAE, Israel
 
-Plus cross-border matrices (PTE elections, sales-tax nexus, bonus depreciation conformity, 1099-K thresholds, FATCA/FBAR, GILTI/FDII/BEAT, etc.).
+Cross-border topics include PTE elections, sales-tax nexus, bonus depreciation conformity, 1099-K thresholds, FATCA/FBAR, and GILTI/FDII/BEAT.
 
 ## Important
 
-These skills produce **working papers, not filed returns**. Every output ends with a "Talk to a verified accountant" footer + Calendly link. No client-accountant relationship is created by reading or applying these skills — that requires a formal engagement letter signed by both you and a verified accountant.
+These skills produce working papers. A qualified professional should review a working paper before filing or relying on it. Reading or applying a skill does not create a client–accountant relationship. That requires a formal engagement letter signed by you and an accountant.
 
 ## License
 
-This plugin is MIT-licensed. The underlying skill content (served by the MCP server) is AGPL-3.0 with attribution per [openaccountants/openaccountants](https://github.com/openaccountants/openaccountants/blob/main/LICENSE-ADDITIONAL.md). Commercial licensing available via `info@openaccountants.com`.
+This plugin is MIT-licensed. Skill content is served by the OpenAccountants MCP server under its own terms: [openaccountants.com](https://www.openaccountants.com).
 
 ## Links
 
 - Website: [openaccountants.com](https://www.openaccountants.com)
-- Skills source (AGPL): [github.com/openaccountants/openaccountants](https://github.com/openaccountants/openaccountants)
 - Verified accountant network: [openaccountants.com/network](https://www.openaccountants.com/network)
 - Book a verified accountant: [calendly.com/openaccountants-info/30min](https://calendly.com/openaccountants-info/30min)

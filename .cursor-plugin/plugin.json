@@ -1,8 +1,8 @@
 {
   "name": "openaccountants",
   "displayName": "OpenAccountants — Tax & Accounting Skills",
-  "version": "0.1.0",
-  "description": "On-demand access to 800+ accountant-verified tax skills across 190+ jurisdictions. Every skill is signed off by a named licensed accountant. Get accountant-grade VAT, income tax, payroll, formation, and cross-border tax computation directly in Cursor.",
+  "version": "0.2.0",
+  "description": "2,168 accountant-written tax and accounting skills covering 218 countries plus all 50 US states and DC. VAT, income tax, payroll, formation, and cross-border tax computation directly in Cursor.",
   "author": {
     "name": "OpenAccountants",
     "email": "info@openaccountants.com"
