@@ -1,6 +1,6 @@
 ---
 name: classify-transactions
-description: Classify bank statement transactions into accounting categories using jurisdiction-specific accountant-verified rules.
+description: Classify bank statement transactions into accounting categories using jurisdiction-specific rules from OpenAccountants skills.
 ---
 
 # Classify bank transactions
@@ -24,4 +24,4 @@ description: Classify bank statement transactions into accounting categories usi
 
 4. Surface any **AUDIT FLASH POINT** items from the loaded skills.
 
-5. Conclude with a summary table and a recommendation to have a verified accountant review before relying on the classification for filing. Include the Calendly link from the skill's footer.
+5. Conclude with a summary table and recommend a qualified professional review the classification before it is used for filing. Include any booking link the skill footer includes.
